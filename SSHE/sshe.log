@@ -1,0 +1,59 @@
+[INFO][2014-04-26 23:57:54,610][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2752f6e2: startup date [Sat Apr 26 23:57:54 CST 2014]; root of context hierarchy
+[INFO][2014-04-26 23:57:54,765][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2014-04-27 00:01:41,014][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2752f6e2: startup date [Sun Apr 27 00:01:41 CST 2014]; root of context hierarchy
+[INFO][2014-04-27 00:01:41,176][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2014-04-27 00:04:34,806][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2752f6e2: startup date [Sun Apr 27 00:04:34 CST 2014]; root of context hierarchy
+[INFO][2014-04-27 00:04:34,984][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2014-04-27 00:41:29,105][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f7a2457: startup date [Sun Apr 27 00:41:29 CST 2014]; root of context hierarchy
+[INFO][2014-04-27 00:41:29,195][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2014-04-27 00:59:20,894][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@60f82f98: startup date [Sun Apr 27 00:59:20 CST 2014]; root of context hierarchy
+[INFO][2014-04-27 00:59:20,974][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2014-04-27 00:59:21,436][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2014-04-27 01:01:56,759][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@60f82f98: startup date [Sun Apr 27 01:01:56 CST 2014]; root of context hierarchy
+[INFO][2014-04-27 01:01:56,851][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2014-04-27 01:01:57,362][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2014-04-27 01:05:26,600][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@60f82f98: startup date [Sun Apr 27 01:05:26 CST 2014]; root of context hierarchy
+[INFO][2014-04-27 01:05:26,780][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2014-04-27 01:05:27,729][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2014-04-27 12:08:19,930][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@60f82f98: startup date [Sun Apr 27 12:08:19 CST 2014]; root of context hierarchy
+[INFO][2014-04-27 12:08:20,068][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2014-04-27 12:08:20,902][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2015-05-17 17:34:49,587][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5bef66: startup date [Sun May 17 17:34:49 CST 2015]; root of context hierarchy
+[INFO][2015-05-17 17:34:49,706][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-05-17 17:34:50,040][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2015-05-17 17:35:41,870][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5bef66: startup date [Sun May 17 17:35:41 CST 2015]; root of context hierarchy
+[INFO][2015-05-17 17:35:41,922][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-05-17 17:35:42,237][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2015-05-17 17:36:32,334][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5bef66: startup date [Sun May 17 17:36:32 CST 2015]; root of context hierarchy
+[INFO][2015-05-17 17:36:32,385][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-05-17 17:36:32,696][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2015-05-17 17:36:32,726][UserServiceImpl.clazz]spring is ok
+[INFO][2015-05-17 17:37:33,709][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5bef66: startup date [Sun May 17 17:37:33 CST 2015]; root of context hierarchy
+[INFO][2015-05-17 17:37:33,768][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-05-17 17:37:34,060][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2015-05-17 17:37:34,085][UserServiceImpl.clazz]spring is ok
+[INFO][2015-05-17 17:37:58,557][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5bef66: startup date [Sun May 17 17:37:58 CST 2015]; root of context hierarchy
+[INFO][2015-05-17 17:37:58,613][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-05-17 17:37:58,963][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2015-05-17 17:37:58,986][UserServiceImpl.clazz]spring is ok
+[INFO][2015-05-17 19:32:26,081][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f82f98: startup date [Sun May 17 19:32:26 CST 2015]; root of context hierarchy
+[INFO][2015-05-17 19:32:26,126][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-05-17 19:32:26,411][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2015-05-17 19:32:26,435][UserServiceImpl.clazz]spring is ok
+[INFO][2015-05-19 07:47:20,117][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f82f98: startup date [Tue May 19 07:47:20 CST 2015]; root of context hierarchy
+[INFO][2015-05-19 07:47:20,157][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-05-19 07:47:20,422][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2015-05-19 07:47:20,440][UserServiceImpl.clazz]spring is ok
+[INFO][2015-05-19 08:09:36,037][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@f82f98: startup date [Tue May 19 08:09:36 CST 2015]; root of context hierarchy
+[INFO][2015-05-19 08:09:36,075][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-05-19 08:09:36,341][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2015-05-19 08:09:36,359][UserServiceImpl.clazz]spring is ok
+[INFO][2015-05-30 17:42:55,277][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c68925: startup date [Sat May 30 17:42:55 CST 2015]; root of context hierarchy
+[INFO][2015-05-30 17:42:55,412][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-05-30 17:42:55,802][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2015-05-30 17:45:57,949][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c68925: startup date [Sat May 30 17:45:57 CST 2015]; root of context hierarchy
+[INFO][2015-05-30 17:45:58,007][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-05-30 17:45:58,376][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO][2015-05-30 17:53:06,048][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c68925: startup date [Sat May 30 17:53:06 CST 2015]; root of context hierarchy
+[INFO][2015-05-30 17:53:06,090][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2015-05-30 17:53:07,289][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
