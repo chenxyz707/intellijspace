@@ -75,13 +75,13 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
     }
 
     @Override
-    public List find(String hql) {
+    public List<T> find(String hql) {
         Query q = this.getCurrentSession().createQuery(hql);
         return q.list();
     }
 
     @Override
-    public List find(String hql, Map<String, Object> params) {
+    public List<T> find(String hql, Map<String, Object> params) {
         Query q = this.getCurrentSession().createQuery(hql);
         if (params != null && !params.isEmpty()) {
             for (String key : params.keySet()) {
@@ -92,7 +92,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
     }
 
     @Override
-    public List find(String hql, int page, int rows) {
+    public List<T> find(String hql, int page, int rows) {
         Query q = this.getCurrentSession().createQuery(hql);
         return q.setFirstResult((page - 1) * rows).setMaxResults(rows).list();
     }

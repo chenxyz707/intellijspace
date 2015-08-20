@@ -1,5 +1,6 @@
 package com.sshe.service.impl;
 
+import com.danga.MemCached.MemCachedClient;
 import com.sshe.beans.TuserVo;
 import com.sshe.dao.BaseDao;
 import com.sshe.dao.UserDao;
@@ -7,6 +8,7 @@ import com.sshe.service.UserService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -18,6 +20,10 @@ public class UserServiceImpl implements UserService {
 	Logger logger = Logger.getLogger("UserServiceImpl.clazz");
 	@Autowired
 	private BaseDao<TuserVo> userDao;
+
+	@Autowired
+	private MemCachedClient memcachedClient;
+
 	@Override
 	public void test() {
 		logger.info("spring is ok");
@@ -31,7 +37,13 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
+	@Transactional
 	public List<TuserVo> getUsers() {
-		return this.userDao.find("from Tuser");
+		memcachedClient.set("test1", "myTest");
+		System.out.println(memcachedClient.get("test1"));
+		System.out.println(memcachedClient.get("test2"));
+		List<TuserVo> list = this.userDao.find("from TuserVo");
+		System.out.println(list.toString());
+		return list;
 	}
 }
