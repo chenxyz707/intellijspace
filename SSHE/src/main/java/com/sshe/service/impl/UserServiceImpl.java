@@ -37,13 +37,19 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	@Transactional
 	public List<TuserVo> getUsers() {
+		System.out.println("============");
+		System.out.println(memcachedClient.get("test1"));
 		memcachedClient.set("test1", "myTest");
 		System.out.println(memcachedClient.get("test1"));
+		memcachedClient.add("test1", "myTestChage");
+		System.out.println(memcachedClient.get("test1"));
+		memcachedClient.add("test2", "myTest2");
 		System.out.println(memcachedClient.get("test2"));
+		memcachedClient.set("test2", "myTest2Change");
+		System.out.println(memcachedClient.get("test2"));
+
 		List<TuserVo> list = this.userDao.find("from TuserVo");
-		System.out.println(list.toString());
 		return list;
 	}
 }

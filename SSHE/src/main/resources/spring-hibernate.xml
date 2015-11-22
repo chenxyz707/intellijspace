@@ -95,10 +95,10 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
 	</bean>
 
 	<!-- 注解方式配置事物 -->
-	<tx:annotation-driven transaction-manager="transactionManager" />
+	<!--<tx:annotation-driven transaction-manager="transactionManager" />-->
 
 	<!-- 拦截器方式配置事物 -->
-	<!--
+
 	<tx:advice id="transactionAdvice" transaction-manager="transactionManager">
 		<tx:attributes>
 			<tx:method name="add*" />
@@ -111,19 +111,27 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
 			<tx:method name="repair" />
 			<tx:method name="deleteAndRepair" />
 
+			<tx:method name="get*" />
+			<tx:method name="find*" />
+			<tx:method name="load*" />
+			<tx:method name="search*" />
+			<tx:method name="datagrid*" />
+			<tx:method name="*" />
+
+			<!--设置为propagation="SUPPORTS"时，报错No Session found for current thread
 			<tx:method name="get*" propagation="SUPPORTS" />
 			<tx:method name="find*" propagation="SUPPORTS" />
 			<tx:method name="load*" propagation="SUPPORTS" />
 			<tx:method name="search*" propagation="SUPPORTS" />
 			<tx:method name="datagrid*" propagation="SUPPORTS" />
-
 			<tx:method name="*" propagation="SUPPORTS" />
+			-->
 		</tx:attributes>
 	</tx:advice>
 	<aop:config>
 		<aop:pointcut id="transactionPointcut" expression="execution(* com.sshe.service..*Impl.*(..))" />
 		<aop:advisor pointcut-ref="transactionPointcut" advice-ref="transactionAdvice" />
 	</aop:config>
-	-->
+
 
 </beans>
